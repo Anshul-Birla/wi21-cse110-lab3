@@ -21,9 +21,28 @@
         <section>
           <h2>About Me</h2>
           <div>
-            <p>I am a <strong> second year Computer Engineering major</strong> at <strong>UC San Diego</strong> interested in <strong>low level programming, machine learning and embedded systems.</strong> I have experience with <strong>Java, C++, C, Python and Javascript</strong>.I have experience with full-stack web development and have helped develop autonomous capabilites for sea vessels <br> <br>
-            In my free time, I like to swim, play and watch basketball, and hang out with friends. I am always down to talk with anyone :)</p>
+            <p>I am a <strong> second year Computer Engineering major</strong> at <strong>UC San Diego</strong> interested in <strong>low level programming, machine learning and embedded systems.</strong> I have experience with <strong>Java, C++, C, Python and Javascript</strong>.I have experience with full-stack web development and have helped develop autonomous capabilites for sea vessels </p>
+            <details> <summary>Random Details</summary>
+            In my free time, I like to <span>swim, play and watch basketball</span>, and <span>hang out with friends.</span> I am always down to <span>talk with anyone :)</span>
+            </details>
           </div>
+          <figure>
+            <img src="image.jpg" alt="This should be a pic of me" width="150px" height="150px"/>
+            <figcaption>A Picture of Me at Irvine!</figcaption>
+          </figure>
+          <picture>
+            <source srcset="cynd.jpg" media="(min-width:1000px)" width="150px" height="150px">
+            <img src="toto.jpg" alt="" width="150px" height="150px"/>
+          </picture>
+          <figure>
+            <figcaption>The Pokemon that makes this sound is somewhere on this page</figcaption>
+            <audio
+              controls
+              src="typhlosion.mp3">
+              Sadly you cannot play this mp3
+            </audio>
+          </figure>
+          
         </section>
         <hr>
     <!--Projects -->
@@ -70,7 +89,16 @@
                 <li>Agatha Chrisitie's <i>The Murder of Roger Ackroyd</i> is one of my favorite books</li>
                 <li><i>Memento</i>, directed by Chirstopher Nolan is a fantastic movie</li>
                 <li>"Stranger Things" is a cool TV Show also</li>
+                <li>A couple of cool videos to watch are below:
               </ul>
+              <iframe 
+                src="https://www.youtube.com/embed/Xc4xYacTu-E">
+              </iframe>
+              <video controls width="250">
+                <source src="snow.mp4"   type="video/mp4" width="150px" height="150px">
+                Sorry your browser does not support this video
+              </video>
+
               
 
         </section>
@@ -124,8 +152,115 @@
         <!-- Caption -->
             <caption> Coursework Table </caption>
           </table>
+          <template id="courserow">
+            <tr>
+              <td class="class_code"></td>
+              <td></td>
+            </tr>
+          </template>
+
         </section>
         <hr>
+        <section>
+          <form>
+            <!-- Input count: 7 -->
+            <div>
+              <label> Pick your favorite color!: </label>
+              <input type="color" id="fav_color" name="color">
+            </div>
+            <div> 
+              <label>Check this box if you attend UCSD </label>
+              <input type="checkbox" name="UCSD_attend" id="UCSD_checkbox">
+            </div>
+            <div>
+              <label> Enter your birthday:</label>
+              <input type="date" name="birthday" id="birthday_picker">
+            </div>
+            <div>
+              <label> Enter your email:</label>
+              <input type="email" name="email" id="email_id">
+            </div>
+            <div>
+              <label> Enter your age:</label>
+              <input type="number" name="age" id="age">
+            </div>
+            <div>
+              <label> Enter your mother's maiden name:</label>
+              <input type="text" name="maiden" id="mother's_maiden">
+            </div>
+            <div>
+              <label> Enter your telephone number:</label>
+              <input type="tel" name="number" id="telephone_number">
+            </div>
+
+            <div>
+              <label> What is your favorite day of the week?</label>
+              <select id="fav_day">
+                <optgroup label="Weekdays">
+                  <option>Monday</option>
+                  <option>Tuesday</option>
+                  <option>Wednesday</option>
+                  <option>Thursday</option>
+                  <option>Friday</option>
+                </optgroup>
+                <optgroup label="Weekends">
+                  <option>Saturday</option>
+                  <option>Sunday</option>
+                </optgroup>
+              </select>
+            </div>
+
+            <!-- Input Count: 1 -->
+            <div>
+              <fieldset>
+                <legend>Choose your favorite Johto Starter</legend>
+                <input type="radio" id="Totodile" name="pokemon">
+                <label for="Totodile">Totodile</label> <br>
+                <input type="radio" id="Cyndaquil" name="pokemon">
+                <label for="Cyndaquil">Cyndaquil</label> <br>
+                <input type="radio" id="Chikorita" name="pokemon">
+                <label for="Cyndaquil">Chikorit</label> <br>
+              </fieldset>
+            </div>
+
+            <!-- Input Count: 1 -->
+            <div>
+              <label for="ucsd_rating"> How satisifed are you with your experience at UCSD?</label>
+              <input list="ucsd_satisfaction" id="statisfaction_choice" name="statisfaction_choice"/>
+              <datalist id="ucsd_satisfaction">
+                <option value="Very satisifed">
+                <option value="Moderately satisifed">
+                <option value="Neither satisifed or disatisfied">
+                <option value="Moderately disatisifed">
+                <option value="Very disatisifed">
+              </datalist>
+            </div>
+
+            <div>
+              <label for="paragraph">Enter your favorite paragraph you have read:</label>
+              <textarea id="paragraph"name="paragraph" rows="7" cols="25">Anger was washed away in the river along with any obligation.
+              </textarea> 
+            </div>
+
+            <button> Click me for a good day!</button>
+
+            <!-- Input Count: 2 -->
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+          </form>
+
+        </section>
+        <hr>
+        <section>
+          <h5>Canvas and SVG (Ignore)</h5>
+          <canvas width="250" height="50">
+            This canvas is blank. No JS added yet
+          </canvas>
+          <br>
+          <svg width="150" height="50">
+            <rect width="150" height="100" style="fill:aquamarine"/>
+          </svg>
+        </section>
 
     </main>
     <footer>
