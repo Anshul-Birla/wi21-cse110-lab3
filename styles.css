@@ -33,6 +33,12 @@ img ~ figcaption {
   background-color: goldenrod;
 }
 
+footer{
+  position: fixed;
+  bottom: 1%;
+  left: 50%;
+}
+
 div.radio_form{
   height:150px;
   width: 200px;
