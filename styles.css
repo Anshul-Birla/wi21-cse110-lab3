@@ -1,4 +1,8 @@
+
+* {
+  background-color: hsl(48, 100%, 93%);
+}
+
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: hsl(48, 100%, 93%);
 }
