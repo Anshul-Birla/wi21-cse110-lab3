@@ -7,14 +7,25 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+td[id*="CSE"]{
+  color: aqua
+}
+
+/* Selector List */
 h1, h2, h3 {
   color: cadetblue;
   text-decoration: wavy;
   text-align: center;
 }
 
-td[id*="CSE"]{
-  color: aqua
+/* Descendant Combinator */
+ul li {
+  color:darkblue
+}
+
+/* Child Combinator */
+table > caption {
+  background-color: darkorange;
 }
 
 .image {
