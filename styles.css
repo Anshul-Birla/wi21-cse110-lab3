@@ -59,6 +59,12 @@ div.radio_form{
   margin: auto;
 }
 
+.pic{
+  min-width: 15%;
+  max-width: 50%;
+  position: static;
+}
+
 .image {
   border-style: dashed;
   border-color:#8a2be2;
