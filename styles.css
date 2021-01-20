@@ -28,6 +28,10 @@ table > caption {
   background-color: darkorange;
 }
 
+form > div {
+  padding: 10px 10px 10px 10px;
+}
+
 /*Adjacent sibling combinator */
 img ~ figcaption {
   background-color: goldenrod;
@@ -57,12 +61,15 @@ div.radio_form{
 
 .video{
   margin: auto;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
 }
 
 .pic{
   min-width: 15%;
   max-width: 50%;
-  position: static;
 }
 
 .image {
