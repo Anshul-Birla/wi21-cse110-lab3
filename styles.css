@@ -13,6 +13,10 @@ h2 {
   text-align: center;
 }
 
+td[id*="CSE"]{
+  color: aqua
+}
+
 .image {
   border-style: dashed;
   border-color:#8a2be2;
