@@ -7,6 +7,16 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+  color: cadetblue;
+  text-decoration: wavy;
+  text-align: center;
+}
+
+td[id*="CSE"]{
+  color: aqua
+}
+
 .image {
   border-style: dashed;
   border-color:#8a2be2;
