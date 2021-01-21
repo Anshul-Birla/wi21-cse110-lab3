@@ -107,6 +107,11 @@ div.radio_form{
   text-align: center;
 }
 
+.hidden_div {
+  display: block;
+}
+
+
 
 @media only screen and (max-width: 600px) {
   #dissapearing_button {
