@@ -11,12 +11,6 @@ td[id*="CSE"]{
   color: aqua
 }
 
-/* Selector List */
-h1, h2, h3 {
-  color: cadetblue;
-  text-decoration: wavy;
-  text-align: center;
-}
 
 /* Descendant Combinator */
 ul li {
@@ -106,6 +100,11 @@ div.radio_form{
   border: 7px yellow solid;
   text-align: center;
 }
+
+.hidden_div {
+  display: block;
+}
+
 
 
 @media only screen and (max-width: 600px) {
