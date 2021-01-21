@@ -79,6 +79,13 @@ div.radio_form{
   border-radius: 1px;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .link:hover{
   color:rgb(0, 255, 255);
 }
