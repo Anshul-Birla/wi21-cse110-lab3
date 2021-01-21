@@ -11,12 +11,6 @@ td[id*="CSE"]{
   color: aqua
 }
 
-/* Selector List */
-h1, h2, h3 {
-  color: cadetblue;
-  text-decoration: wavy;
-  text-align: center;
-}
 
 /* Descendant Combinator */
 ul li {
