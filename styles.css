@@ -1,6 +1,6 @@
 
 * {
-  background-color: hsl(48, 100%, 93%);
+  background-color: hsla(48, 100%, 93%);
 }
 
 body {
@@ -19,7 +19,7 @@ ul li {
 
 /* Child Combinator */
 table > caption {
-  background-color: darkorange;
+  background-color: hsl(33, 100%, 50%);
 }
 
 form > div {
@@ -28,7 +28,7 @@ form > div {
 
 /*Adjacent sibling combinator */
 img ~ figcaption {
-  background-color: goldenrod;
+  background-color: rgb(218, 165, 32);
 }
 
 footer{
@@ -81,11 +81,11 @@ div.radio_form{
 }
 
 .link:hover{
-  color:rgb(0, 255, 255);
+  color:rgba(0, 255, 255);
 }
 
 .link:active {
-  color:chocolate;
+  color:#d26;
 }
 
 .board {
@@ -96,8 +96,8 @@ div.radio_form{
 }
 
 .square {
-  background-color:lightsalmon;
-  border: 7px yellow solid;
+  background-color:hsl(17, 100%, 74%);
+  border: 7px rgb(255, 255, 0) solid;
   text-align: center;
 }
 
