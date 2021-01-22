@@ -22,13 +22,14 @@ table > caption {
   background-color: hsl(33, 100%, 50%);
 }
 
-form > div {
-  padding: 10px 10px 10px 10px;
+aside > p {
+  padding: 1em;
 }
 
 /*Adjacent sibling combinator */
 img ~ figcaption {
   background-color: rgb(218, 165, 32);
+  width: 25%;
 }
 
 footer{
@@ -55,10 +56,10 @@ div.radio_form{
 
 .video{
   margin: auto;
-  padding-top: 15px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 15px;
+  padding-top: 15mm;
+  padding-left: 20mm;
+  padding-right: 20mm;
+  padding-bottom: 15mm;
 }
 
 .pic{
@@ -69,8 +70,8 @@ div.radio_form{
 .image {
   border-style: dashed;
   border-color:#8a2be2;
-  border-width: 10px;
-  border-radius: 1px;
+  border-width: 1cm;
+  border-radius: 0.1cm;
 }
 
 .container {
