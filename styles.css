@@ -102,8 +102,12 @@ div.radio_form{
   text-align: center;
 }
 
-.hidden_div {
+.block_div {
   display: block;
+}
+
+p::selection{
+  color:red
 }
 
 
